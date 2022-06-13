@@ -1,0 +1,58 @@
+/* Importer les différentes polices d'écriture */
+@import url('http://fonts.cdnfonts.com/css/kdam-thmor');
+@import url('http://example.com/fonts/ubuntu.woff');
+
+/* Div du message  */
+.message{
+	display: flex;
+	justify-content: flex-start;
+	background-color: #444;
+	border-radius: 30px;
+	margin-left: 8vw;
+	margin-right: 8vw;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: 3px solid #7cb1f2;
+}
+
+/* Div de l'auteur du message dans la div du message */
+.message .user{
+	transition: 1s;
+	align-items: center;
+	padding: 15px;
+}
+
+/* Icone de l'utilisateur  */
+.message .user .icon{
+	transition: 1s;
+	position: relative;
+	width: 150px;
+	height: 150px;
+}
+
+
+/* Pseudo de l'auteur du message  */
+.message .user .username{
+	transition: 1s;
+	font-size: 23px;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 5px;
+	font-family: 'Kdam Thmor', sans-serif;
+	line-height: 120%;
+	width: 150px;
+}
+
+/* Rôle sur le site de l'auteur du message(Maître Canard, Canneton, ...) */
+.message .user .permission{
+	transition: 1s;
+	margin: 0px;
+	font-size: 15px;
+}
+
+/* Contenu du message */
+.message .content .text{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	padding: 15px;
+}

@@ -1,0 +1,9 @@
+/* Délimiter le body + changer la couleur de fond  */
+body{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	background: linear-gradient(#2618c4, #150e5e);
+	width: 98vw;
+	height: 100vh;
+}

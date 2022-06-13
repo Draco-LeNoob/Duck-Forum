@@ -2,10 +2,11 @@
 	background-color: #111;
 	margin: 0px;
 	padding: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
 	border: 0px;
 	height: 110px;
-	width: 99.45vw;
-	z-index: 100;
+	width: 96.8vw;
 }
 
 .navigation nav ul{
@@ -45,13 +46,4 @@
 .navigation nav ul li img.logo:hover{
 	transition: 0.5s;
 	opacity: 0.6;
-}
-
-.navigation input.search{
-	width: 40px;
-	height: 40px;
-}
-
-.navigation input.field{
-	background-color: #111;
 }

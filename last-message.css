@@ -1,0 +1,58 @@
+section.last{
+	margin-left: 8vw;
+	margin-right: 8vw;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+
+section.last h1{
+	font-size: 80px;
+	margin: 5px;
+	padding: 0px;
+}
+
+li.last{
+	background-color: #444;
+	border: 5px solid #000;
+	margin: 15px;
+	padding: 15px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+/* Div de l'auteur du last dans la div du last */
+.last .user{
+	padding: 15px;
+}
+
+/* Icone de l'utilisateur  */
+.last .user .icon{
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+}
+
+
+/* Pseudo de l'auteur du last  */
+.last .user .username{
+	font-size: 14px;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 5px;
+	line-height: 120%;
+	width: 150px;
+}
+
+/* Rôle sur le site de l'auteur du last(Maître Canard, Canneton, ...) */
+.last .user .permission{
+	transition: 1s;
+	margin: 0px;
+	font-size: 12px;
+}
+
+/* Contenu du last */
+.last .content .text{
+	font-size: 20px;
+	padding: 10px;
+}

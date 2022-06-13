@@ -1,5 +1,8 @@
-/* Délimiter le body + changer la couleur de fond  */
+@import url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-ExtraBold-Italic.woff');
+
 body{
+	font-family: 'JetBrains Mono', sans-serif;
+
 	margin: 0px;
 	padding: 0px;
 	border: 0px;
